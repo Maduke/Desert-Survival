@@ -1,0 +1,609 @@
+﻿[2015.06.15-20.35.29:345][  0]Log file open, 06/15/15 13:35:29
+[2015.06.15-20.35.29:345][  0]LogInit:Display: Running engine for game: DesertSurvival
+[2015.06.15-20.35.29:345][  0]LogInit:Display: Project file not found: ../../../DesertSurvival/DesertSurvival.uproject
+[2015.06.15-20.35.29:345][  0]LogInit:Display: 	Attempting to find via project info helper.
+[2015.06.15-20.35.29:345][  0]LogUProjectInfo: Found projects:
+[2015.06.15-20.35.29:345][  0]LogModuleManager:Warning: ModuleManager: Module 'HTTPChunkInstaller' not found - its StaticallyLinkedModuleInitializers function is null.
+[2015.06.15-20.35.29:345][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.06.15-20.35.29:345][  0]LogStats: Stats thread started
+[2015.06.15-20.35.29:345][  0]LogInit: Version: 4.8.0-2579680+++depot+UE4-Releases+4.8
+[2015.06.15-20.35.29:345][  0]LogInit: API Version: 2579680
+[2015.06.15-20.35.29:345][  0]LogInit: Compiled (64-bit): Jun  8 2015 03:43:14
+[2015.06.15-20.35.29:345][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.06.15-20.35.29:345][  0]LogInit: Build Configuration: Development
+[2015.06.15-20.35.29:345][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.8
+[2015.06.15-20.35.29:345][  0]LogInit: Command line:  
+[2015.06.15-20.35.29:345][  0]LogInit: Base directory: C:/Users/David/Desktop/Git Hub/Desert-Survival/WindowsNoEditor/Engine/Binaries/Win64/
+[2015.06.15-20.35.29:345][  0]LogInit: Rocket: 0
+[2015.06.15-20.35.29:346][  0]LogInit: Using libcurl 7.41.0
+[2015.06.15-20.35.29:346][  0]LogInit:  - built for x86_64-pc-win32
+[2015.06.15-20.35.29:346][  0]LogInit:  - supports SSL with WinSSL
+[2015.06.15-20.35.29:346][  0]LogInit:  - other features:
+[2015.06.15-20.35.29:346][  0]LogInit:      CURL_VERSION_SSL
+[2015.06.15-20.35.29:346][  0]LogInit:      CURL_VERSION_IPV6
+[2015.06.15-20.35.29:346][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.06.15-20.35.29:346][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.06.15-20.35.29:346][  0]LogInit:      CURL_VERSION_IDN
+[2015.06.15-20.35.29:346][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.06.15-20.35.29:346][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.06.15-20.35.29:346][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.06.15-20.35.29:346][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.06.15-20.35.29:346][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.06.15-20.35.29:347][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.06.15-20.35.29:348][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.06.15-20.35.29:353][  0]LogInit: Object subsystem initialized
+[2015.06.15-20.35.29:354][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.06.15-20.35.29:354][  0]LogConsoleResponse:Warning:   Found in ini file '../../../DesertSurvival/Saved/Config/WindowsNoEditor/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.06.15-20.35.29:354][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.06.15-20.35.29:354][  0]LogConsoleResponse:Warning:   Found in ini file '../../../DesertSurvival/Saved/Config/WindowsNoEditor/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.06.15-20.35.29:354][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.06.15-20.35.29:354][  0]LogConsoleResponse:Warning:   Found in ini file '../../../DesertSurvival/Saved/Config/WindowsNoEditor/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.06.15-20.35.29:373][  0]LogInit: Selected Device Profile: [WindowsNoEditor]
+[2015.06.15-20.35.29:373][  0]LogInit: Applying CVar settings loaded from the selected device profile: [WindowsNoEditor]
+[2015.06.15-20.35.29:378][  0]LogInit: Computer: DAVOPCX64
+[2015.06.15-20.35.29:378][  0]LogInit: User: David
+[2015.06.15-20.35.29:378][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.06.15-20.35.29:378][  0]LogInit: High frequency timer resolution =3.418017 MHz
+[2015.06.15-20.35.29:378][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2015.06.15-20.35.29:378][  0]LogMemory: Platform Memory Stats for WindowsNoEditor
+[2015.06.15-20.35.29:378][  0]LogMemory: Process Physical Memory: 31.19 MB used, 31.19 MB peak
+[2015.06.15-20.35.29:378][  0]LogMemory: Process Virtual Memory: 19.74 MB used, 19.74 MB peak
+[2015.06.15-20.35.29:378][  0]LogMemory: Physical Memory: 4609.55 MB used, 8073.93 MB total
+[2015.06.15-20.35.29:378][  0]LogMemory: Virtual Memory: 181.08 MB used, 8388608.00 MB total
+[2015.06.15-20.35.29:410][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.06.15-20.35.29:592][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon HD 7800 Series (Feature Level 11_0)
+[2015.06.15-20.35.29:593][  0]LogD3D11RHI: Adapter has 1003MB of dedicated video memory, 0MB of dedicated system memory, and 3780MB of shared system memory, 2 output[s]
+[2015.06.15-20.35.29:595][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 4000 (Feature Level 11_0)
+[2015.06.15-20.35.29:595][  0]LogD3D11RHI: Adapter has 64MB of dedicated video memory, 0MB of dedicated system memory, and 1632MB of shared system memory, 1 output[s]
+[2015.06.15-20.35.29:595][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.06.15-20.35.29:599][  0]LogRHI: Texture pool is 702 MB (70% of 1003 MB)
+[2015.06.15-20.35.29:604][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2015.06.15-20.35.29:686][  0]LogInit: Selected Device Profile: [WindowsNoEditor]
+[2015.06.15-20.35.29:769][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.06.15-20.35.29:845][  0]LogWindowsMoviePlayer: Unable to load movie: ../../../DesertSurvival/Content/Movies/Default_Startup.mp4
+[2015.06.15-20.35.29:879][  0]LogObj: 21750 objects as part of root set at end of initial load.
+[2015.06.15-20.35.29:879][  0]LogUObjectAllocator: 4322120 out of 0 bytes used by permanent object pool.
+[2015.06.15-20.35.29:879][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/TableViewHeader.png' error.
+[2015.06.15-20.35.29:879][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/TableViewHeader.png
+[2015.06.15-20.35.29:879][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate//Docking/TabContentArea.png' error.
+[2015.06.15-20.35.29:879][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate//Docking/TabContentArea.png
+[2015.06.15-20.35.29:879][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/ProgressBar_Background.png' error.
+[2015.06.15-20.35.29:879][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/ProgressBar_Background.png
+[2015.06.15-20.35.29:879][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/TaskGraph_Normal.png' error.
+[2015.06.15-20.35.29:879][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/TaskGraph_Normal.png
+[2015.06.15-20.35.29:879][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/TaskGraph_Selected.png' error.
+[2015.06.15-20.35.29:879][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/TaskGraph_Selected.png
+[2015.06.15-20.35.29:879][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/TaskGraph_Mono.png' error.
+[2015.06.15-20.35.29:879][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/TaskGraph_Mono.png
+[2015.06.15-20.35.29:879][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/SortUpArrow.png' error.
+[2015.06.15-20.35.29:879][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/SortUpArrow.png
+[2015.06.15-20.35.29:879][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/SortDownArrow.png' error.
+[2015.06.15-20.35.29:879][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/SortDownArrow.png
+[2015.06.15-20.35.29:879][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/Home16x16.png' error.
+[2015.06.15-20.35.29:879][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/Home16x16.png
+[2015.06.15-20.35.29:879][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ToParent.png' error.
+[2015.06.15-20.35.29:879][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ToParent.png
+[2015.06.15-20.35.29:879][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/ComboArrow.png' error.
+[2015.06.15-20.35.29:879][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/ComboArrow.png
+[2015.06.15-20.35.29:890][  0]LogEngine: Initializing Engine...
+[2015.06.15-20.35.29:892][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2015.06.15-20.35.29:893][  0]LogHMD:Warning: SteamVR failed to initialize.  Error: 100
+[2015.06.15-20.35.29:919][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.06.15-20.35.29:931][  0]LogInit: FAudioDevice initialized.
+[2015.06.15-20.35.29:931][  0]LogInit: Texture streaming: Disabled
+[2015.06.15-20.35.29:931][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.06.15-20.35.29:931][  0]LogAnalytics: [UEGame.UnrealEngine.Release|85E7D6CD49F0F3FCF365188A5BDF5A03|UE4Game] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.8.0-2579680+++depot+UE4-Releases+4.8
+[2015.06.15-20.35.29:931][  0]LogAnalytics: [UEGame.UnrealEngine.Release|85E7D6CD49F0F3FCF365188A5BDF5A03|UE4Game] SetUserId 63bad7584199a80b18f5d19af3640327|847b49c4ca63452480b7439378717c51|d31b456e-061b-4b71-818e-0d4e346df735
+[2015.06.15-20.35.29:931][  0]LogAnalytics: [UEGame.UnrealEngine.Release|85E7D6CD49F0F3FCF365188A5BDF5A03|UE4Game] AnalyticsET::StartSession
+[2015.06.15-20.35.29:936][  0]LogNet: Browse: /Game/Maps/MainMenu?Name=Player
+[2015.06.15-20.35.29:936][  0]LogLoad: LoadMap: /Game/Maps/MainMenu?Name=Player
+[2015.06.15-20.35.29:945][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000942A0A0
+[2015.06.15-20.35.29:949][  0]LogMemory: Platform Memory Stats for WindowsNoEditor
+[2015.06.15-20.35.29:949][  0]LogMemory: Process Physical Memory: 135.96 MB used, 138.46 MB peak
+[2015.06.15-20.35.29:949][  0]LogMemory: Process Virtual Memory: 112.76 MB used, 116.18 MB peak
+[2015.06.15-20.35.29:949][  0]LogMemory: Physical Memory: 4710.29 MB used, 8073.93 MB total
+[2015.06.15-20.35.29:949][  0]LogMemory: Virtual Memory: 466.05 MB used, 8388608.00 MB total
+[2015.06.15-20.35.29:949][  0]LogMemory: 
+[2015.06.15-20.35.29:949][  0]LogMemory: Allocator Stats for binned:
+[2015.06.15-20.35.29:949][  0]LogMemory: Current Memory 36.71 MB used, plus 3.44 MB waste
+[2015.06.15-20.35.29:949][  0]LogMemory: Peak Memory 46.13 MB used, plus 2.51 MB waste
+[2015.06.15-20.35.29:949][  0]LogMemory: Current OS Memory 40.15 MB, peak 48.64 MB
+[2015.06.15-20.35.29:949][  0]LogMemory: Current Waste 0.67 MB, peak 0.95 MB
+[2015.06.15-20.35.29:949][  0]LogMemory: Current Used 36.71 MB, peak 46.13 MB
+[2015.06.15-20.35.29:949][  0]LogMemory: Current Slack 2.78 MB
+[2015.06.15-20.35.29:949][  0]LogMemory: Allocs       106548 Current /  1039472 Total
+[2015.06.15-20.35.29:949][  0]LogMemory: 
+[2015.06.15-20.35.29:949][  0]LogMemory: Block Size Num Pools Max Pools Cur Allocs Total Allocs Min Req Max Req Mem Used Mem Slack Mem Waste Efficiency
+[2015.06.15-20.35.29:949][  0]LogMemory: ---------- --------- --------- ---------- ------------ ------- ------- -------- --------- --------- ----------
+[2015.06.15-20.35.29:949][  0]LogMemory:          8         0         0          0            0       8       0       0K        0K        0K    100.00%
+[2015.06.15-20.35.29:949][  0]LogMemory:         16         4         4      13245       208951      16      16     206K       50K        0K    100.00%
+[2015.06.15-20.35.29:949][  0]LogMemory:         32         9         9      17583        95992      32      32     549K       27K        0K    100.00%
+[2015.06.15-20.35.29:949][  0]LogMemory:         48         8         8       9243        41697      48      48     433K       79K        0K    100.00%
+[2015.06.15-20.35.29:949][  0]LogMemory:         64        16        16      15934        73490      64      64     995K       29K        0K    100.00%
+[2015.06.15-20.35.29:949][  0]LogMemory:         80         7         7       5534        44747      80      80     432K       16K        0K    100.00%
+[2015.06.15-20.35.29:949][  0]LogMemory:         96         5         5       2956        33081      96      96     277K       43K        0K    100.00%
+[2015.06.15-20.35.29:949][  0]LogMemory:        112         4         4       1511        27529     112     112     165K       91K        0K    100.00%
+[2015.06.15-20.35.29:949][  0]LogMemory:        128        33        33      16709        43418     128     128    2088K       24K        0K    100.00%
+[2015.06.15-20.35.29:949][  0]LogMemory:        160         7        13       2598        67637     144     160     405K       43K       16K     96.43%
+[2015.06.15-20.35.29:949][  0]LogMemory:        192        17        17       5200       120904     176     192     975K      112K       40K     96.32%
+[2015.06.15-20.35.29:949][  0]LogMemory:        224         4         4        970       101824     208     224     212K       44K        9K     96.48%
+[2015.06.15-20.35.29:949][  0]LogMemory:        256        18        31       4374        63596     240     256    1093K       59K       49K     95.75%
+[2015.06.15-20.35.29:949][  0]LogMemory:        288         5         5       1112        43230     272     288     312K        8K       12K     96.25%
+[2015.06.15-20.35.29:949][  0]LogMemory:        320         4         4        689        15024     304     320     215K       40K        6K     97.66%
+[2015.06.15-20.35.29:949][  0]LogMemory:        384        12        12       1948        17993     336     384     730K       35K       48K     93.75%
+[2015.06.15-20.35.29:949][  0]LogMemory:        448        12        12       1674         9914     400     448     732K       35K       25K     96.74%
+[2015.06.15-20.35.29:949][  0]LogMemory:        512        10        10       1152         6595     464     512     576K       64K       30K     95.31%
+[2015.06.15-20.35.29:949][  0]LogMemory:        576        11        11        885         1914     528     576     497K      203K       29K     95.88%
+[2015.06.15-20.35.29:949][  0]LogMemory:        640         9        10        574         1258     592     640     358K      216K       20K     96.53%
+[2015.06.15-20.35.29:949][  0]LogMemory:        704         4         4        268          658     656     704     184K       72K        4K     98.44%
+[2015.06.15-20.35.29:949][  0]LogMemory:        768         3         3        195         2513     720     768     146K       46K        3K     98.44%
+[2015.06.15-20.35.29:949][  0]LogMemory:        896         3         4        206          665     784     896     180K       12K        9K     95.31%
+[2015.06.15-20.35.29:949][  0]LogMemory:       1024         2         3        106          571     912    1024     106K       22K        2K     98.44%
+[2015.06.15-20.35.29:949][  0]LogMemory:       1168         3         3        112          644    1040    1168     127K       65K        6K     96.88%
+[2015.06.15-20.35.29:949][  0]LogMemory:       1360         7         7        278         3246    1184    1360     369K       78K       24K     94.64%
+[2015.06.15-20.35.29:949][  0]LogMemory:       1632         7         8        265          654    1376    1632     422K       25K       27K     93.97%
+[2015.06.15-20.35.29:949][  0]LogMemory:       2048         8         8        182          674    1648    2048     364K      148K       39K     92.38%
+[2015.06.15-20.35.29:949][  0]LogMemory:       2336         3         4         72         3398    2064    2336     164K       28K       17K     91.15%
+[2015.06.15-20.35.29:949][  0]LogMemory:       2720         5         6        104          504    2352    2720     276K       43K       14K     95.63%
+[2015.06.15-20.35.29:949][  0]LogMemory:       3264        10        10        146         2147    2736    3264     465K      173K       24K     96.25%
+[2015.06.15-20.35.29:949][  0]LogMemory:       4096        12        14        159          703    3280    4096     636K      132K       53K     93.10%
+[2015.06.15-20.35.29:949][  0]LogMemory:       4672         7         9         77         1385    4112    4672     351K       97K       11K     97.54%
+[2015.06.15-20.35.29:949][  0]LogMemory:       5456         9        14         94          392    4688    5456     500K       76K       41K     92.88%
+[2015.06.15-20.35.29:949][  0]LogMemory:       6544        13        15        107          322    5472    6544     683K      148K       56K     93.27%
+[2015.06.15-20.35.29:949][  0]LogMemory:       8192         7         9         46          920    6560    8192     368K       80K       26K     94.20%
+[2015.06.15-20.35.29:949][  0]LogMemory:       9360         6         6         37          114    8208    9360     338K       46K       20K     94.79%
+[2015.06.15-20.35.29:949][  0]LogMemory:      10912         4         5         24           60    9376   10896     255K        1K       18K     92.97%
+[2015.06.15-20.35.29:949][  0]LogMemory:      13104         6         6         26           86   10976   13104     332K       52K       23K     94.01%
+[2015.06.15-20.35.29:949][  0]LogMemory:      16384         8        11         26          158   13120   16384     416K       96K       27K     94.73%
+[2015.06.15-20.35.29:949][  0]LogMemory:      21840        11        12         31           86   16400   21776     661K       43K      108K     84.66%
+[2015.06.15-20.35.29:949][  0]LogMemory:      32768         7         8         14           72   21904   32736     448K        0K       96K     78.57%
+[2015.06.15-20.35.29:949][  0]LogMemory: 
+[2015.06.15-20.35.29:949][  0]LogMemory: 21760K allocated in pools (with 2701K slack and 932K waste). Efficiency 95.72%
+[2015.06.15-20.35.29:949][  0]LogMemory: Allocations 106467 Current / 1038767 Total (in 340 pools)
+[2015.06.15-20.35.29:949][  0]LogMemory: 
+[2015.06.15-20.35.29:955][  0]LogLinker:Warning: CreateImport: Failed to load Outer for resource 'WidgetTree': WidgetBlueprint /Script/UMGEditor.Default__WidgetBlueprint
+[2015.06.15-20.35.29:956][  0]LogModuleManager:Warning: ModuleManager: Module 'GameplayDebugger' not found - its StaticallyLinkedModuleInitializers function is null.
+[2015.06.15-20.35.29:956][  0]LogAIModule: Creating AISystem for world MainMenu
+[2015.06.15-20.35.29:956][  0]LogWorld: Game class is 'GameMode'
+[2015.06.15-20.35.29:959][  0]LogWorld: Bringing World /Game/Maps/MainMenu.MainMenu up for play (max tick rate 0) at 2015.06.15-13.35.29
+[2015.06.15-20.35.29:959][  0]LogWorld: Bringing up level for play took: 0.000950
+[2015.06.15-20.35.29:960][  0]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.06.15-20.35.29:965][  0]LogInit:Display: Game Engine Initialized.
+[2015.06.15-20.35.30:169][  0]LogAssetRegistry: FAssetRegistry took 0.0041 seconds to start up
+[2015.06.15-20.35.30:170][  0]LogLoad: Full Startup: 1.64 seconds (BP compile: 0.00 seconds)
+[2015.06.15-20.35.30:191][  0]LogContentStreaming: Texture pool size is 1000.000000MB
+[2015.06.15-20.35.30:340][  2]LogRenderer: Reallocating scene render targets to support 1600x1000 (Frame:2).
+[2015.06.15-20.35.57:811][688]LogBlueprintUserMessages: 71.226.63.237
+[2015.06.15-20.35.57:892][693]LogBlueprintUserMessages: 71.226.63.237
+[2015.06.15-20.35.57:892][693]LogBlueprintUserMessages: open 71.226.63.237
+[2015.06.15-20.35.57:892][693]LogNet: Browse: 71.226.63.237//Game/Maps/MainMenu
+[2015.06.15-20.35.57:893][693]LogInit: WinSock: Socket queue 32768 / 32768
+[2015.06.15-20.35.57:896][693]LogInit: WinSock: I am DavoPCx64 (10.10.1.165:0)
+[2015.06.15-20.35.57:896][693]LogNet: Game client on port 7777, rate 10000
+[2015.06.15-20.35.57:896][693]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2579680, ProjectName: desertsurvival, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 8, LocalNetworkVersion: 821238849
+[2015.06.15-20.35.58:263][716]LogNet: Welcomed by server (Level: /Game/Maps/Map1, Game: /Game/Maps/SurvivalGameMode.SurvivalGameMode_C)
+[2015.06.15-20.35.58:263][716]LogLoad: LoadMap: 71.226.63.237//Game/Maps/Map1?game=/Game/Maps/SurvivalGameMode.SurvivalGameMode_C
+[2015.06.15-20.35.58:269][716]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000942A000
+[2015.06.15-20.35.58:274][716]LogMemory: Platform Memory Stats for WindowsNoEditor
+[2015.06.15-20.35.58:274][716]LogMemory: Process Physical Memory: 159.54 MB used, 160.82 MB peak
+[2015.06.15-20.35.58:274][716]LogMemory: Process Virtual Memory: 129.94 MB used, 134.83 MB peak
+[2015.06.15-20.35.58:274][716]LogMemory: Physical Memory: 4768.38 MB used, 8073.93 MB total
+[2015.06.15-20.35.58:274][716]LogMemory: Virtual Memory: 507.34 MB used, 8388608.00 MB total
+[2015.06.15-20.35.58:274][716]LogMemory: 
+[2015.06.15-20.35.58:274][716]LogMemory: Allocator Stats for binned:
+[2015.06.15-20.35.58:274][716]LogMemory: Current Memory 32.82 MB used, plus 14.63 MB waste
+[2015.06.15-20.35.58:274][716]LogMemory: Peak Memory 49.11 MB used, plus 1.45 MB waste
+[2015.06.15-20.35.58:274][716]LogMemory: Current OS Memory 47.45 MB, peak 50.57 MB
+[2015.06.15-20.35.58:274][716]LogMemory: Current Waste 0.72 MB, peak 0.95 MB
+[2015.06.15-20.35.58:274][716]LogMemory: Current Used 32.82 MB, peak 49.11 MB
+[2015.06.15-20.35.58:274][716]LogMemory: Current Slack 13.91 MB
+[2015.06.15-20.35.58:274][716]LogMemory: Allocs       110731 Current /  1713682 Total
+[2015.06.15-20.35.58:274][716]LogMemory: 
+[2015.06.15-20.35.58:274][716]LogMemory: Block Size Num Pools Max Pools Cur Allocs Total Allocs Min Req Max Req Mem Used Mem Slack Mem Waste Efficiency
+[2015.06.15-20.35.58:274][716]LogMemory: ---------- --------- --------- ---------- ------------ ------- ------- -------- --------- --------- ----------
+[2015.06.15-20.35.58:274][716]LogMemory:          8         0         0          0            0       8       0       0K        0K        0K    100.00%
+[2015.06.15-20.35.58:274][716]LogMemory:         16         4         4      14265       288684      16      16     222K       34K        0K    100.00%
+[2015.06.15-20.35.58:274][716]LogMemory:         32        10        10      18473       144811      32      32     577K       63K        0K    100.00%
+[2015.06.15-20.35.58:274][716]LogMemory:         48         8         8       9740       190079      48      48     456K       56K        0K    100.00%
+[2015.06.15-20.35.58:274][716]LogMemory:         64        17        17      16334       130766      64      64    1020K       68K        0K    100.00%
+[2015.06.15-20.35.58:274][716]LogMemory:         80         7         7       5603        51861      80      80     437K       11K        0K    100.00%
+[2015.06.15-20.35.58:274][716]LogMemory:         96         5         5       3028        46042      96      96     283K       37K        0K    100.00%
+[2015.06.15-20.35.58:274][716]LogMemory:        112         4         4       1590       145971     112     112     173K       83K        0K    100.00%
+[2015.06.15-20.35.58:274][716]LogMemory:        128        33        33      16814        53290     128     128    2101K       11K        0K    100.00%
+[2015.06.15-20.35.58:274][716]LogMemory:        160         7        13       2755        82453     144     160     430K       18K       20K     95.54%
+[2015.06.15-20.35.58:274][716]LogMemory:        192        17        17       5249       141138     176     192     984K      103K       40K     96.32%
+[2015.06.15-20.35.58:274][716]LogMemory:        224         4         4       1073       111941     208     224     234K       22K        9K     96.48%
+[2015.06.15-20.35.58:274][716]LogMemory:        256        18        31       4399        69078     240     256    1099K       53K       46K     96.01%
+[2015.06.15-20.35.58:274][716]LogMemory:        288         6         6       1118        45817     272     288     314K       70K       12K     96.88%
+[2015.06.15-20.35.58:274][716]LogMemory:        320         4         4        715        21179     304     320     223K       32K        5K     98.05%
+[2015.06.15-20.35.58:274][716]LogMemory:        384        12        12       1987        30510     336     384     745K       20K       43K     94.40%
+[2015.06.15-20.35.58:274][716]LogMemory:        448        12        12       1717        27042     400     448     751K       16K       16K     97.92%
+[2015.06.15-20.35.58:274][716]LogMemory:        512        10        10       1158         8520     464     512     579K       61K       27K     95.78%
+[2015.06.15-20.35.58:274][716]LogMemory:        576        11        11        910        15491     528     576     511K      189K       12K     98.30%
+[2015.06.15-20.35.58:274][716]LogMemory:        640         9        10        575         3051     592     640     359K      215K       14K     97.57%
+[2015.06.15-20.35.58:274][716]LogMemory:        704         4         4        283         2689     656     704     194K       62K        2K     99.22%
+[2015.06.15-20.35.58:274][716]LogMemory:        768         3         3        193         4273     720     768     144K       48K        3K     98.44%
+[2015.06.15-20.35.58:274][716]LogMemory:        896         4         4        212        20180     784     896     185K       71K       17K     93.36%
+[2015.06.15-20.35.58:274][716]LogMemory:       1024         2         3        102         4113     912    1024     102K       26K        0K    100.00%
+[2015.06.15-20.35.58:274][716]LogMemory:       1168         3         3        117         4571    1040    1168     133K       59K       11K     94.27%
+[2015.06.15-20.35.58:274][716]LogMemory:       1360         7         7        281         6250    1184    1360     373K       74K       27K     93.97%
+[2015.06.15-20.35.58:274][716]LogMemory:       1632         8         8        266         4653    1376    1632     423K       87K       58K     88.67%
+[2015.06.15-20.35.58:274][716]LogMemory:       2048         8         8        187         6964    1648    2048     374K      138K       39K     92.38%
+[2015.06.15-20.35.58:274][716]LogMemory:       2336         3         4         70         3444    2064    2336     159K       33K       17K     91.15%
+[2015.06.15-20.35.58:274][716]LogMemory:       2720         5         6        104          517    2352    2720     276K       43K       14K     95.63%
+[2015.06.15-20.35.58:274][716]LogMemory:       3264        10        10        147         7310    2736    3264     468K      170K       46K     92.81%
+[2015.06.15-20.35.58:274][716]LogMemory:       4096        12        14        154          778    3280    4096     616K      152K       47K     93.88%
+[2015.06.15-20.35.58:274][716]LogMemory:       4672         6         9         74         1400    4112    4672     337K       47K       11K     97.14%
+[2015.06.15-20.35.58:274][716]LogMemory:       5456         9        14         93         2115    4688    5456     495K       81K       17K     97.05%
+[2015.06.15-20.35.58:274][716]LogMemory:       6544        13        15        108         2087    5472    6544     690K      141K       36K     95.67%
+[2015.06.15-20.35.58:274][716]LogMemory:       8192         9        11         49        17241    6560    8192     392K      184K       47K     91.84%
+[2015.06.15-20.35.58:274][716]LogMemory:       9360         7         7         39         1441    8208    9360     356K       92K       31K     93.08%
+[2015.06.15-20.35.58:274][716]LogMemory:      10912         4         5         22         3520    9376   10896     234K       22K       14K     94.53%
+[2015.06.15-20.35.58:274][716]LogMemory:      13104         6         6         28           95   10976   13104     358K       26K       24K     93.75%
+[2015.06.15-20.35.58:274][716]LogMemory:      16384        10        13         33          223   13120   16384     528K      112K       36K     94.38%
+[2015.06.15-20.35.58:274][716]LogMemory:      21840        12        12         32          117   16400   21776     682K       86K      102K     86.72%
+[2015.06.15-20.35.58:274][716]LogMemory:      32768         8        10         14           81   21904   32736     448K       64K       98K     80.86%
+[2015.06.15-20.35.58:274][716]LogMemory: 
+[2015.06.15-20.35.58:274][716]LogMemory: 22464K allocated in pools (with 2980K slack and 941K waste). Efficiency 95.81%
+[2015.06.15-20.35.58:274][716]LogMemory: Allocations 110112 Current / 1701787 Total (in 351 pools)
+[2015.06.15-20.35.58:274][716]LogMemory: 
+[2015.06.15-20.35.58:300][716]LogAIModule: Creating AISystem for world Map1
+[2015.06.15-20.35.58:302][716]LogWorld: Bringing World /Game/Maps/Map1.Map1 up for play (max tick rate 0) at 2015.06.15-13.35.58
+[2015.06.15-20.35.58:302][716]LogWorld: Bringing up level for play took: 0.000730
+[2015.06.15-20.36.53:304][120]LogCharacterMovement: PlayerElement_C_1 is stuck and failed to move!
+[2015.06.15-20.36.53:368][124]LogCharacterMovement: PlayerElement_C_1 is stuck and failed to move!
+[2015.06.15-20.36.53:384][125]LogCharacterMovement: PlayerElement_C_1 is stuck and failed to move!
+[2015.06.15-20.37.15:612][466]LogCharacterMovement: PlayerElement_C_1 is stuck and failed to move!
+[2015.06.15-20.37.15:676][470]LogCharacterMovement: PlayerElement_C_1 is stuck and failed to move!
+[2015.06.15-20.37.22:723][889]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.37.22:981][905]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.37.41:898][918]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.37.44:291][ 64]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.37.44:311][ 65]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.37.44:351][ 67]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.37.53:054][507]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.37.53:054][507]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.37.53:054][507]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.37.53:054][507]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.37.53:054][507]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.37.53:104][510]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.37.53:104][510]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.37.53:105][510]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.37.53:105][510]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.37.53:105][510]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.37.53:121][511]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.37.53:138][512]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.37.53:154][513]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.37.53:171][514]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.37.53:188][515]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.37.53:237][518]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.37.53:253][519]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.37.53:270][520]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.37.53:286][521]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.37.53:287][521]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.37.53:287][521]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.37.53:287][521]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.37.53:287][521]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.37.53:287][521]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.37.53:288][521]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.37.53:288][521]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.37.53:288][521]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.37.53:289][521]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.37.53:289][521]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.37.53:302][522]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.37.53:367][526]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.37.53:367][526]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.37.53:368][526]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.37.53:368][526]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.37.53:384][527]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.37.53:399][528]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.37.53:417][529]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.37.53:432][530]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.37.53:448][531]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.37.53:466][532]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.37.53:480][533]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.37.53:496][534]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.37.53:514][535]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.37.53:529][536]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.37.53:545][537]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.37.53:561][538]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.37.53:561][538]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.37.53:562][538]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.37.53:562][538]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.37.53:562][538]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.37.53:562][538]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.37.53:563][538]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.37.53:563][538]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.37.53:563][538]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.37.53:564][538]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.37.53:564][538]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.37.53:565][538]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.37.53:565][538]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.37.53:578][539]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.37.53:593][540]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.37.53:658][544]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.37.53:674][545]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.37.53:690][546]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.37.53:706][547]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.37.53:722][548]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.37.53:738][549]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.37.53:754][550]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.37.53:770][551]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.37.53:787][552]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.37.53:803][553]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.37.53:819][554]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.37.53:835][555]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.37.53:835][555]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.37.53:835][555]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.37.53:836][555]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.37.53:836][555]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.37.53:836][555]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.37.53:836][555]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.37.53:837][555]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.37.53:837][555]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.37.53:837][555]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.37.53:851][556]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.37.53:867][557]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.37.53:867][557]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.37.53:868][557]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.37.53:868][557]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.37.53:868][557]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.37.53:868][557]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.37.53:883][558]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.37.53:900][559]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.37.53:916][560]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.37.53:932][561]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.37.53:950][562]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.37.53:964][563]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.37.53:982][564]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.37.53:999][565]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.37.54:012][566]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.37.54:029][567]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.37.54:045][568]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.37.54:061][569]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.37.54:077][570]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.38.04:975][ 84]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.38.04:975][ 84]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.38.04:975][ 84]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.38.05:004][ 85]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.38.05:004][ 85]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.38.05:005][ 85]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.38.05:034][ 86]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.38.05:065][ 87]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.38.05:094][ 88]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.38.05:125][ 89]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.38.05:152][ 90]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.38.05:210][ 92]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.38.05:210][ 92]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.38.05:210][ 92]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.38.05:210][ 92]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.38.05:211][ 92]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.38.05:211][ 92]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.38.05:238][ 93]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.38.05:474][101]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.38.05:474][101]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.38.05:474][101]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.38.05:475][101]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.38.05:475][101]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.38.05:475][101]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.38.05:475][101]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.38.05:502][102]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.38.05:502][102]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.38.05:502][102]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.38.05:531][103]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.38.05:531][103]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.38.05:531][103]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.38.05:561][104]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.38.05:589][105]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.38.05:618][106]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.38.05:647][107]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.38.05:676][108]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.38.05:704][109]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.38.05:733][110]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.38.05:734][110]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.38.05:734][110]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.38.05:734][110]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.38.05:734][110]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.38.05:734][110]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.38.05:762][111]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.38.05:791][112]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.38.05:792][112]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.38.05:792][112]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.38.05:820][113]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.38.05:820][113]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.38.05:821][113]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.38.05:849][114]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.38.05:878][115]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.38.05:911][116]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.38.05:936][117]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.38.05:965][118]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.38.05:995][119]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.38.05:995][119]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.38.05:995][119]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.38.05:995][119]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.38.05:995][119]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.38.05:995][119]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.38.05:996][119]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.38.05:996][119]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.38.06:023][120]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.38.06:024][120]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.38.06:024][120]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.38.06:052][121]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.38.06:082][122]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.38.06:082][122]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.38.06:082][122]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.38.06:111][123]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.38.06:142][124]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.38.06:169][125]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.38.06:198][126]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.38.06:227][127]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.38.06:256][128]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.38.06:285][129]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.38.06:286][129]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.38.06:286][129]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.38.06:286][129]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.38.06:286][129]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.38.06:286][129]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.38.06:286][129]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.38.06:287][129]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.38.06:315][130]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.38.06:315][130]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.38.06:315][130]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.38.06:345][131]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.38.06:345][131]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.38.06:345][131]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.38.06:378][132]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.38.06:378][132]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.38.06:378][132]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.38.06:405][133]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.38.06:435][134]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.38.06:540][138]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.38.06:540][138]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.38.06:540][138]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.38.06:541][138]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.38.06:541][138]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.38.06:561][139]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.38.06:582][140]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.38.06:583][140]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.38.06:583][140]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.38.06:626][142]LogCharacterMovement: PlayerElement_C_0 is stuck and failed to move!
+[2015.06.15-20.38.23:577][930]LogCharacterMovement: PlayerElement_C_1 is stuck and failed to move!
+[2015.06.15-20.38.34:195][479]LogNet:Warning: Network Failure: GameNetDriver[FailureReceived]: Host closed the connection.
+[2015.06.15-20.38.34:195][479]LogNet: NetworkFailure: FailureReceived, Error: 'Host closed the connection.'
+[2015.06.15-20.38.34:195][479]LogNet: UNetConnection::Close: Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_0, PC: MPPlayerController_C_0, Owner: MPPlayerController_C_0, Channels: 494, RemoteAddr: 71.226.63.237:7777, Time: 2015.06.15-20.38.34
+[2015.06.15-20.38.34:195][479]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_0
+[2015.06.15-20.38.34:195][479]LogNet:Warning: Network Failure: GameNetDriver[ConnectionLost]: Your connection to the host has been lost.
+[2015.06.15-20.38.34:195][479]LogNet: NetworkFailure: ConnectionLost, Error: 'Your connection to the host has been lost.'
+[2015.06.15-20.38.34:195][479]LogNet:Warning: FObjectReplicator::UpdateUnmappedObjects: Connection->State == USOCK_Closed
+[2015.06.15-20.38.34:224][480]LogNet: Browse: /Game/Maps/MainMenu?closed
+[2015.06.15-20.38.34:224][480]LogNet: Failed; returning to Entry
+[2015.06.15-20.38.34:247][480]LogLoad: LoadMap: /Game/Maps/MainMenu?closed
+[2015.06.15-20.38.34:248][480]LogNet: World NetDriver shutdown IpNetDriver_0 [GameNetDriver]
+[2015.06.15-20.38.34:248][480]LogNet: DestroyNamedNetDriver IpNetDriver_0 [GameNetDriver]
+[2015.06.15-20.38.34:249][480]LogExit: GameNetDriver IpNetDriver_0 shut down
+[2015.06.15-20.38.34:277][480]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000009421900
+[2015.06.15-20.38.34:286][480]LogMemory: Platform Memory Stats for WindowsNoEditor
+[2015.06.15-20.38.34:286][480]LogMemory: Process Physical Memory: 188.29 MB used, 195.90 MB peak
+[2015.06.15-20.38.34:286][480]LogMemory: Process Virtual Memory: 152.71 MB used, 167.58 MB peak
+[2015.06.15-20.38.34:286][480]LogMemory: Physical Memory: 4881.28 MB used, 8073.93 MB total
+[2015.06.15-20.38.34:286][480]LogMemory: Virtual Memory: 519.78 MB used, 8388608.00 MB total
+[2015.06.15-20.38.34:286][480]LogMemory: 
+[2015.06.15-20.38.34:287][480]LogMemory: Allocator Stats for binned:
+[2015.06.15-20.38.34:287][480]LogMemory: Current Memory 85.04 MB used, plus 17592186044416.00 MB waste
+[2015.06.15-20.38.34:287][480]LogMemory: Peak Memory 96.21 MB used, plus 17592186044416.00 MB waste
+[2015.06.15-20.38.34:287][480]LogMemory: Current OS Memory 51.27 MB, peak 60.59 MB
+[2015.06.15-20.38.34:287][480]LogMemory: Current Waste 0.86 MB, peak 0.95 MB
+[2015.06.15-20.38.34:287][480]LogMemory: Current Used 85.04 MB, peak 96.21 MB
+[2015.06.15-20.38.34:287][480]LogMemory: Current Slack 17592186044416.00 MB
+[2015.06.15-20.38.34:287][480]LogMemory: Allocs       119405 Current /  8341958 Total
+[2015.06.15-20.38.34:287][480]LogMemory: 
+[2015.06.15-20.38.34:287][480]LogMemory: Block Size Num Pools Max Pools Cur Allocs Total Allocs Min Req Max Req Mem Used Mem Slack Mem Waste Efficiency
+[2015.06.15-20.38.34:287][480]LogMemory: ---------- --------- --------- ---------- ------------ ------- ------- -------- --------- --------- ----------
+[2015.06.15-20.38.34:287][480]LogMemory:          8         0         0          0            0       8       0       0K        0K        0K    100.00%
+[2015.06.15-20.38.34:287][480]LogMemory:         16         5         5      14771      1417885      16      16     230K       90K        0K    100.00%
+[2015.06.15-20.38.34:287][480]LogMemory:         32        12        12      20831      1247054      32      32     650K      118K        0K    100.00%
+[2015.06.15-20.38.34:287][480]LogMemory:         48         9         9      10626       758291      48      48     498K       78K        0K    100.00%
+[2015.06.15-20.38.34:287][480]LogMemory:         64        18        18      16379      1362093      64      64    1023K      129K        0K    100.00%
+[2015.06.15-20.38.34:287][480]LogMemory:         80         8         9       5609       100269      80      80     438K       74K        0K    100.00%
+[2015.06.15-20.38.34:287][480]LogMemory:         96         5         5       3062       154787      96      96     287K       33K        0K    100.00%
+[2015.06.15-20.38.34:287][480]LogMemory:        112         4         4       1599      1489076     112     112     174K       82K        0K    100.00%
+[2015.06.15-20.38.34:287][480]LogMemory:        128        34        35      16824       109023     128     128    2103K       73K        0K    100.00%
+[2015.06.15-20.38.34:287][480]LogMemory:        160         7        13       2782       165773     144     160     434K       14K       23K     94.87%
+[2015.06.15-20.38.34:287][480]LogMemory:        192        19        19       5301       231995     176     192     993K      222K       43K     96.46%
+[2015.06.15-20.38.34:287][480]LogMemory:        224         5         6       1090       113585     208     224     238K       82K        9K     97.19%
+[2015.06.15-20.38.34:287][480]LogMemory:        256        18        31       4403        76265     240     256    1100K       52K       44K     96.18%
+[2015.06.15-20.38.34:287][480]LogMemory:        288         6        10       1125        47875     272     288     316K       68K       12K     96.88%
+[2015.06.15-20.38.34:287][480]LogMemory:        320         4         4        718        54107     304     320     224K       31K        2K     99.22%
+[2015.06.15-20.38.34:287][480]LogMemory:        384        14        15       2017       475286     336     384     756K      137K       60K     93.30%
+[2015.06.15-20.38.34:287][480]LogMemory:        448        12        12       1716        45104     400     448     750K       17K       26K     96.61%
+[2015.06.15-20.38.34:287][480]LogMemory:        512        11        14       1156        47816     464     512     578K      126K       19K     97.30%
+[2015.06.15-20.38.34:287][480]LogMemory:        576        11        14        928        26213     528     576     522K      178K       23K     96.73%
+[2015.06.15-20.38.34:287][480]LogMemory:        640         9        10        573         3995     592     640     358K      216K       15K     97.40%
+[2015.06.15-20.38.34:287][480]LogMemory:        704        15        15        786         4751     656     704     540K      420K       11K     98.85%
+[2015.06.15-20.38.34:287][480]LogMemory:        768         3         3        199        33285     720     768     149K       43K        6K     96.88%
+[2015.06.15-20.38.34:287][480]LogMemory:        896         5        11        210        38852     784     896     183K      137K       15K     95.31%
+[2015.06.15-20.38.34:287][480]LogMemory:       1024         3         3        111        34825     912    1024     111K       81K        0K    100.00%
+[2015.06.15-20.38.34:287][480]LogMemory:       1168         3        22        123         7084    1040    1168     140K       52K        9K     95.31%
+[2015.06.15-20.38.34:287][480]LogMemory:       1360         7        28        283        19081    1184    1360     375K       72K       28K     93.75%
+[2015.06.15-20.38.34:287][480]LogMemory:       1632         8        18        268        50992    1376    1632     427K       83K       11K     97.85%
+[2015.06.15-20.38.34:287][480]LogMemory:       2048         8         8        191        19981    1648    2048     382K      130K       47K     90.82%
+[2015.06.15-20.38.34:287][480]LogMemory:       2336         3         4         69         4638    2064    2336     157K       35K       15K     92.19%
+[2015.06.15-20.38.34:287][480]LogMemory:       2720         5         6        110         9777    2352    2720     292K       27K        7K     97.81%
+[2015.06.15-20.38.34:287][480]LogMemory:       3264        10        10        150        26359    2736    3264     478K      160K       55K     91.41%
+[2015.06.15-20.38.34:287][480]LogMemory:       4096        19        20        290         8621    3280    4096    1160K       56K       36K     97.04%
+[2015.06.15-20.38.34:287][480]LogMemory:       4672         7         9         79         2140    4112    4672     360K       88K       15K     96.65%
+[2015.06.15-20.38.34:287][480]LogMemory:       5456         9        14         99         3003    4688    5456     527K       49K       24K     95.83%
+[2015.06.15-20.38.34:287][480]LogMemory:       6544        13        15        114        15217    5472    6544     728K      103K       44K     94.71%
+[2015.06.15-20.38.34:287][480]LogMemory:       8192        10        11         48        18872    6560    8192     384K      256K       44K     93.13%
+[2015.06.15-20.38.34:287][480]LogMemory:       9360         8         8         42         3756    8208    9360     383K      129K       34K     93.36%
+[2015.06.15-20.38.34:287][480]LogMemory:      10912         5         6         24        21552    9376   10912     255K       65K       15K     95.31%
+[2015.06.15-20.38.34:287][480]LogMemory:      13104         6         8         27         1799   10928   13104     345K       39K       29K     92.45%
+[2015.06.15-20.38.34:287][480]LogMemory:      16384        14        17         40         2086   13120   16384     640K      256K       43K     95.20%
+[2015.06.15-20.38.34:287][480]LogMemory:      21840        11        16         29         1603   16400   21840     618K       86K       96K     86.36%
+[2015.06.15-20.38.34:287][480]LogMemory:      32768         9        14         16          645   21888   32736     512K       64K      126K     78.13%
+[2015.06.15-20.38.34:287][480]LogMemory: 
+[2015.06.15-20.38.34:287][480]LogMemory: 25088K allocated in pools (with 4251K slack and 986K waste). Efficiency 96.07%
+[2015.06.15-20.38.34:287][480]LogMemory: Allocations 114819 Current / 8255412 Total (in 392 pools)
+[2015.06.15-20.38.34:287][480]LogMemory: 
+[2015.06.15-20.38.34:292][480]LogLinker:Warning: CreateImport: Failed to load Outer for resource 'WidgetTree': WidgetBlueprint /Script/UMGEditor.Default__WidgetBlueprint
+[2015.06.15-20.38.34:294][480]LogAIModule: Creating AISystem for world MainMenu
+[2015.06.15-20.38.34:294][480]LogWorld: Game class is 'GameMode'
+[2015.06.15-20.38.34:295][480]LogWorld: Bringing World /Game/Maps/MainMenu.MainMenu up for play (max tick rate 0) at 2015.06.15-13.38.34
+[2015.06.15-20.38.34:295][480]LogWorld: Bringing up level for play took: 0.000263
+[2015.06.15-20.38.34:296][480]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.06.15-20.38.36:494][610]LogEngine: All Windows Closed
+[2015.06.15-20.38.36:494][610]LogWindows: FPlatformMisc::RequestExit(0)
+[2015.06.15-20.38.37:027][611]LogExit: Preparing to exit.
+[2015.06.15-20.38.37:107][611]LogExit: Game engine shut down
+[2015.06.15-20.38.37:166][611]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000039867C0
+[2015.06.15-20.38.37:166][611]LogExit: Object subsystem successfully closed.
+[2015.06.15-20.38.37:197][611]LogModuleManager: Shutting down and abandoning module AssetRegistry (52)
+[2015.06.15-20.38.37:197][611]LogModuleManager: Shutting down and abandoning module AutomationWorker (51)
+[2015.06.15-20.38.37:197][611]LogModuleManager: Shutting down and abandoning module CharacterAI (50)
+[2015.06.15-20.38.37:197][611]LogModuleManager: Shutting down and abandoning module AIModule (48)
+[2015.06.15-20.38.37:197][611]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (47)
+[2015.06.15-20.38.37:197][611]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (46)
+[2015.06.15-20.38.37:197][611]LogModuleManager: Shutting down and abandoning module AnalyticsET (45)
+[2015.06.15-20.38.37:197][611]LogModuleManager: Shutting down and abandoning module Analytics (44)
+[2015.06.15-20.38.37:197][611]LogModuleManager: Shutting down and abandoning module ProfilerService (43)
+[2015.06.15-20.38.37:404][611]LogModuleManager: Shutting down and abandoning module TaskGraph (42)
+[2015.06.15-20.38.37:404][611]LogModuleManager: Shutting down and abandoning module SlateRemote (41)
+[2015.06.15-20.38.37:404][611]LogModuleManager: Shutting down and abandoning module SteamVRController (40)
+[2015.06.15-20.38.37:404][611]LogModuleManager: Shutting down and abandoning module SteamVR (39)
+[2015.06.15-20.38.37:404][611]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (38)
+[2015.06.15-20.38.37:404][611]LogModuleManager: Shutting down and abandoning module OculusRift (37)
+[2015.06.15-20.38.37:404][611]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (36)
+[2015.06.15-20.38.37:404][611]LogModuleManager: Shutting down and abandoning module CableComponent (35)
+[2015.06.15-20.38.37:404][611]LogModuleManager: Shutting down and abandoning module UdpMessaging (34)
+[2015.06.15-20.38.37:404][611]LogModuleManager: Shutting down and abandoning module Paper2D (33)
+[2015.06.15-20.38.37:404][611]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (32)
+[2015.06.15-20.38.37:406][611]LogModuleManager: Shutting down and abandoning module Media (31)
+[2015.06.15-20.38.37:406][611]LogModuleManager: Shutting down and abandoning module WmfMedia (30)
+[2015.06.15-20.38.37:406][611]LogModuleManager: Shutting down and abandoning module ImageWrapper (29)
+[2015.06.15-20.38.37:406][611]LogModuleManager: Shutting down and abandoning module UMG (28)
+[2015.06.15-20.38.37:406][611]LogModuleManager: Shutting down and abandoning module Slate (27)
+[2015.06.15-20.38.37:406][611]LogModuleManager: Shutting down and abandoning module SessionServices (26)
+[2015.06.15-20.38.37:406][611]LogModuleManager: Shutting down and abandoning module Messaging (25)
+[2015.06.15-20.38.37:406][611]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (24)
+[2015.06.15-20.38.37:406][611]LogModuleManager: Shutting down and abandoning module XAudio2 (23)
+[2015.06.15-20.38.37:406][611]LogModuleManager: Shutting down and abandoning module Networking (21)
+[2015.06.15-20.38.37:406][611]LogModuleManager: Shutting down and abandoning module Core (20)
+[2015.06.15-20.38.37:406][611]LogModuleManager: Shutting down and abandoning module LeapMotionController (19)
+[2015.06.15-20.38.37:420][611]LogModuleManager: Shutting down and abandoning module InputCore (18)
+[2015.06.15-20.38.37:420][611]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.06.15-20.38.37:420][611]LogModuleManager: Shutting down and abandoning module HTTP (15)
+[2015.06.15-20.38.37:421][611]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.06.15-20.38.37:421][611]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2015.06.15-20.38.37:421][611]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2015.06.15-20.38.37:421][611]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2015.06.15-20.38.37:421][611]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2015.06.15-20.38.37:422][611]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2015.06.15-20.38.37:422][611]LogModuleManager: Shutting down and abandoning module Renderer (8)
+[2015.06.15-20.38.37:422][611]LogModuleManager: Shutting down and abandoning module Engine (7)
+[2015.06.15-20.38.37:422][611]LogModuleManager: Shutting down and abandoning module CoreUObject (6)
+[2015.06.15-20.38.37:422][611]LogModuleManager: Shutting down and abandoning module NetworkFile (5)
+[2015.06.15-20.38.37:422][611]LogModuleManager: Shutting down and abandoning module StreamingFile (4)
+[2015.06.15-20.38.37:422][611]LogModuleManager: Shutting down and abandoning module SandboxFile (3)
+[2015.06.15-20.38.37:422][611]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.06.15-20.38.37:422][611]LogExit: Exiting.
+[2015.06.15-20.38.37:425][611]Log file closed, 06/15/15 13:38:37
